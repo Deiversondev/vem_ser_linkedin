@@ -7,7 +7,7 @@ html, body, *, ul, li {
     display: flex;
     align-items: center;
     height: 100px;
-    border: 1px solid rgb(213, 6, 6);
+    /* border: 1px solid rgb(213, 6, 6); */
     justify-content: space-around;
     width: 90%;
     margin: auto;
@@ -15,25 +15,45 @@ html, body, *, ul, li {
 
 .logo {
     font-size: 56px;
+    position: relative;
+    bottom: 10px;
 }
 
 .links {
-    width: 60%;
+    width: 65%;
     display: flex;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     justify-content: space-around;
     height: 40px;
-    margin-top: px;
+    /* margin-top: px; */
 }
 
 .links input {
     border-radius: 20px;
-    border: 1px solid rgb(146, 146, 146);
-    width: 300px;
+    border: 1px solid #f0f0f0;
+    width: 240px;
+}
+
+.search {
+    /* border: 1px solid rgb(220, 40, 40); */
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    bottom: 10px;
+}
+
+.search i {
+    color: #0275B1;
 }
 
 .links>i {
-    font-size: 20px;
+    font-size: 30px;
+}
+
+.link>i {
+    font-size: 22px;
 }
 
 .link {
@@ -55,12 +75,17 @@ html, body, *, ul, li {
 }
 
 .profile {
-    border: 1px solid #000;
-    width: 25%;
+    /* border: 1px solid #000; */
+    width: 30%;
     height: 60px;
     display: flex;
     justify-content: space-around;
 }
+
+
+/* .profile_img {
+    border: 1px solid #000;
+} */
 
 .profile p {
     padding: 0;
@@ -71,12 +96,19 @@ html, body, *, ul, li {
     margin: auto 0;
 }
 
+.content {
+    /* border: 1px solid #000; */
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
 .prof_details {
     width: 100%;
     height: 360px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .thumbnail {
