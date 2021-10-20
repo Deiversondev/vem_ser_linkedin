@@ -434,10 +434,11 @@ body {
 } */
 
 .visitor_desc {
-    /* border: 1px solid #000; */
+    /*border: 1px solid #000;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 161px;
 }
 
 .visitor_desc small {
