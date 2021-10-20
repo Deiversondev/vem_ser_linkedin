@@ -496,21 +496,28 @@ footer {
     flex-direction: column;
 }
 
-footer nav {
+
+/* nav {
+    flex-direction: column;
+} */
+
+nav ul {
+    display: flex;
     flex-direction: column;
 }
 
-footer nav ul {
+nav li {
+    margin-right: 30px;
+}
+
+.footer_nav {
     display: flex;
 }
 
-footer li {
-    flex-grow: 4;
-}
 
-footer ul {
+/* footer ul {
     margin-right: 30px;
-}
+} */
 
 footer li,
 li a {
