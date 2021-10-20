@@ -490,13 +490,8 @@ footer {
     flex-direction: column;
 }
 footer nav {
-    flex-direction: column;
-}
-footer nav ul {
     display: flex;
-}
-footer li {
-    flex-grow: 4;
+    flex-direction: column;
 }
 footer ul {
     margin-right: 30px;
