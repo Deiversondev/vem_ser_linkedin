@@ -260,12 +260,53 @@ body {
 
 .endorsements {
     /* border: 1px solid #000; */
-    width: 98%;
+    width: 90%;
+    height: 70px;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
-.endorsements img {
-    width: 32%;
+.endorsement {
+    /* border: 1px solid #000; */
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+.endorsement img {
+    width: 45%;
+}
+
+.endorsement span {
+    margin-left: 40px;
+    color: #0275B1;
+}
+
+.experience {
+    /* height: 345px; */
+    margin-top: 30px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.xp {
+    display: flex;
+    /* border: 1px solid rgb(214, 23, 23); */
+    margin-left: 2%;
+}
+
+.xp_icon {
+    /* border: 1px solid #000; */
+    margin-top: 18px;
+    margin-right: 2%;
+}
+
+.xp_content {
+    width: 94%;
+    /* border: 1px solid #000; */
+    padding: 20px;
+    box-sizing: border-box;
 }
