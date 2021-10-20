@@ -494,7 +494,6 @@ footer {
 #logo {
     display: flex;
     flex-direction: column;
-    left: 130px;
     position: relative;
     top: 30px;
 }
