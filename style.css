@@ -144,4 +144,128 @@ body {
 .btns button {
     width: 170px;
     height: 40px;
+    border: 1px solid #0E6795;
+    color: #0E6795;
+}
+
+.btns button:hover {
+    background-color: #0E6795;
+    border: 1px solid #0E6795;
+}
+
+.section_btn {
+    border-bottom: 1px solid rgb(206, 202, 202);
+    display: flex;
+    align-items: flex-end;
+}
+
+.buttons {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 240px;
+}
+
+.buttons:nth-of-type(1) {
+    height: 50px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    background-color: #0E6795;
+    color: #fff;
+}
+
+.buttons:nth-of-type(2),
+.buttons:nth-of-type(3) {
+    height: 40px;
+    border: 1px solid #d6d4d4;
+}
+
+.buttons:nth-of-type(3) {
+    border-top-right-radius: 4px;
+}
+
+.about {
+    margin-top: 30px;
+    border: 1px solid rgb(194, 194, 194);
+    border-radius: 4px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about div {
+    /* border: 1px solid #000; */
+    width: 93%;
+}
+
+.projects {
+    margin-top: 30px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects h3 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.projects p {
+    margin-bottom: 31px;
+    margin-left: 30px;
+}
+
+.projects_in {
+    /* border: 1px solid rgb(3, 124, 128); */
+    margin-top: 25px;
+    display: flex;
+    width: 92%;
+    height: 70%;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.project {
+    width: 31.5%;
+}
+
+.project img {
+    width: 100%;
+}
+
+.skills {
+    margin-top: 30px;
+    border: 1px solid #c2c2c2;
+    border-radius: 4px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.skills h3 {
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.skills p {
+    margin-bottom: 31px;
+    margin-left: 30px;
+}
+
+.endorsements {
+    /* border: 1px solid #000; */
+    width: 98%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.endorsements img {
+    width: 32%;
 }
