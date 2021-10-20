@@ -351,7 +351,7 @@ body {
 .dashboard {
     margin-top: 20px;
     height: 360px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -369,14 +369,14 @@ body {
 .profile_views,
 .post_views,
 .search_app {
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     width: 84%;
     margin: auto;
 }
 
 .visitors {
     margin-top: 20px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     height: 427px;
 }
 
@@ -408,4 +408,39 @@ body {
 
 .visitor_desc small {
     font-size: 12px;
+}
+
+.suggestions {
+    margin-top: 20px;
+    /* border: 1px solid #000; */
+    height: 338px;
+}
+
+.all_videos {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.video {
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* .video_img {
+    border: 1px solid rgb(24, 255, 3);
+} */
+
+.video_info {
+    /* border: 1px solid rgb(208, 49, 49); */
+    width: 50%;
+}
+
+.video_info p {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
 }
