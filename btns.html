@@ -9,7 +9,7 @@
 </head>
 <style>
 
-    button {
+    .profile button {
         align-items:center;
         background-color: rgb(255, 255, 255, 0.9);
         border-radius: 4px;
@@ -19,11 +19,28 @@
         height: 36px;
         justify-content: space-evenly;
         text-transform: uppercase;
-        width: 132px;
+        width: 36px;
      }
+     #edit {
+         width: 132px;
+         align-self: auto;
+     }
+     .profile a {
+         text-decoration: none;
+         outline: none;
+     }
+    .profile a:link, a:visited {
+	text-decoration: none;
+    color: #181818;
+	}
+     
 
 </style>
 <body>
-    <button><img src="./images/edit (1).png" alt="">Edit Profile</button>
+    <div class="profile">
+    <button id="edit"><a href="#"><img src="./images/edit (1).png" alt="">Edit Profile</a></button>
+    <button><a href="#"><img src="./images/upload.png" alt=""></a></button>
+    <button><a href="#"><img src="./images/more-horizontal.png" alt=""></a></button>
+    </div>
 </body>
 </html>

@@ -15,7 +15,27 @@ body {
     width: 90%;
     margin: auto;
 }
-
+.notification {
+    display: flex;
+    justify-content: center;
+}
+.fa-comment-alt {
+    font-size: 22px;        
+}
+.notification img {
+    height: 16px;
+    width: 16px;
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+.notification span {
+    position: absolute;
+    margin-top: -5px;
+    margin-left: 20px;
+    color: #FFF;
+    font-size: 10px;
+}
 .logo {
     font-size: 46px;
     position: relative;
@@ -38,7 +58,7 @@ body {
 }
 
 .search {
-    /* border: 1px solid rgb(220, 40, 40); */
+    border: 1px solid rgb(220, 40, 40);
     width: 35%;
     display: flex;
     align-items: center;
@@ -105,7 +125,16 @@ body {
     display: flex;
     flex-direction: column;
 }
-
+.content small {
+    color: #02B033;
+    height: 12px;
+    width: 12px;
+    position: relative;
+    margin-right: 100px;
+}
+.content span {
+    color: rgba(24, 24, 24, 0.2);
+}
 .prof_details {
     width: 100%;
     height: 360px;
@@ -119,6 +148,9 @@ body {
     height: 50%;
 }
 
+#picturethumb {
+    width: 100%;
+}
 .description {
     height: 40%;
     /* border: 1px solid #000; */
