@@ -1,23 +1,43 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 html,
-body {
+body, nav, * {
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
 }
 body {
-    background-color: #E5E5E5;
+    background-color: #F7F9FB;
 }
 .nav {
     background-color: #fff;
     display: flex;
     align-items: center;
-    height: 100px;
+    height: 80px;
+    padding: 0 30px;
     /* border: 1px solid rgb(213, 6, 6); */
-    justify-content: space-around;
-    width: 90%;
+    justify-content: space-evenly;
+    width: 100%;
     margin: auto;
 }
+.border-nav {
+    border-right: 1px solid #F4F4F4;
+    height: 80px;
+    margin-left: 25px;
+}
+.nav-border {
+    margin-top: -20px;
+    border-right: 1px solid #F4F4F4;
+    height: 80px;
+}
+#border-nav {
+    margin-top: -10px;
+    border-right: 1px solid #F4F4F4;
+    height: 80px;
+}
+/* .border-nav:nth-of-type(2) {
+    position: relative;
+    bottom: 20px;
+}*/
 .notification {
     display: flex;
     justify-content: center;
@@ -42,16 +62,14 @@ body {
 .logo {
     font-size: 46px;
     position: relative;
-    bottom: 10px;
 }
-
 .links {
+    bottom: 10px;
     width: 65%;
     display: flex;
-    /* border: 1px solid #000; */
     justify-content: space-around;
     height: 40px;
-    /* margin-top: px; */
+    margin-top: 18px;
 }
 
 .links input {
@@ -59,19 +77,24 @@ body {
     border: 1px solid #f0f0f0;
     width: 240px;
 }
-
-.search {
-    border: 1px solid rgb(220, 40, 40);
-    width: 35%;
+.search button {
+    width: 30%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
     position: relative;
     bottom: 10px;
+    border: none;
+    padding: 0 20px;
+}
+.search-txt {
+    border: none;
+    outline: none;
+    color: #CECECE;
 }
 
 .search i {
     color: #0275B1;
+    margin-right: 10px;
 }
 
 .links>i {
@@ -139,7 +162,7 @@ body {
 }
 .prof_details {
     width: 100%;
-    height: 360px;
+    height: 410px;
     display: flex;
     flex-direction: column;
     /* justify-content: space-around; */
@@ -155,7 +178,6 @@ body {
 }
 .description {
     height: 40%;
-    /* border: 1px solid #000; */
 }
 
 .description p,
@@ -172,7 +194,6 @@ body {
 .name {
     height: 30px;
     display: flex;
-    /* border: 1px solid #000; */
     justify-content: space-between;
 }
 
@@ -180,8 +201,8 @@ body {
     width: 16px;
     height: 16px;
     align-self: flex-end;
-    margin-right: 76px;
-    position: relative;
+    margin-right: 10px;
+    position: absolute;
     bottom: 5px;
 }
 
@@ -197,23 +218,33 @@ body {
 }
 
 .details img {
-    margin-top: -30px;
+    margin-top: 15px;
     position: relative;
     bottom: 8px;
 }
 
 .btns {
-    /* border: 1px solid #000; */
     width: 55%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
-
-.btns button {
+.btn-outline-primary {
     width: 170px;
-    height: 40px;
+    height: 32px;
     border: 1px solid #0E6795;
-    color: #0E6795;
+    background-color: #0275B1;
+    color: #FFF;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.btn-outline-secundary {
+    width: 170px;
+    height: 32px;
+    border: 1px solid #0E6795;
+    background-color: #FFF;
+    color: #0275B1;
+    text-transform: uppercase;
+    font-size: 12px;
 }
 
 .btns button:hover {
@@ -241,12 +272,19 @@ body {
     border-top-right-radius: 4px;
     background-color: #0E6795;
     color: #fff;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Gotham Pro;
 }
 
 .buttons:nth-of-type(2),
 .buttons:nth-of-type(3) {
     height: 40px;
     border: 1px solid #d6d4d4;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-family: Gotham Pro;
+    font-weight: bold;
 }
 
 .buttons:nth-of-type(3) {
@@ -254,16 +292,21 @@ body {
 }
 
 .about {
-    margin-top: 30px;
-    border: 1px solid rgb(194, 194, 194);
     border-radius: 4px;
-    height: 170px;
+    height: 200px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+    top: 50px;
+    font-size: 14px;
+    font-family: Gotham Pro;
+    background-color: #FFF;
 }
-
+#seemore {
+    text-decoration: none;
+    font-size: 12px;
+}
 .about div {
     /* border: 1px solid #000; */
     width: 93%;
@@ -271,7 +314,7 @@ body {
 
 .projects {
     margin-top: 30px;
-    border: 1px solid #c2c2c2;
+    background-color: #FFF;
     border-radius: 4px;
     height: 400px;
     display: flex;
@@ -308,7 +351,7 @@ body {
 
 .skills {
     margin-top: 30px;
-    border: 1px solid #c2c2c2;
+    background-color: #FFF;
     border-radius: 4px;
     height: 250px;
     display: flex;
@@ -354,12 +397,16 @@ body {
 .experience {
     /* height: 345px; */
     margin-top: 30px;
-    border: 1px solid #c2c2c2;
+    background-color: #FFF;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
 }
-
+.experience span {
+    border: 1px solid #F4F4F4;
+    width: 90%;
+    margin-left: 45px;
+}
 .experience h3 {
     margin-top: 30px;
     margin-left: 30px;
@@ -386,7 +433,7 @@ body {
 
 .education {
     margin-top: 30px;
-    border: 1px solid #c2c2c2;
+    background-color: #FFF;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
@@ -417,21 +464,33 @@ body {
 }
 
 .dashboard {
-    margin-top: 20px;
+    margin-top: 50px;
     height: 360px;
     /* border: 1px solid #000; */
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    background-color: #FFF;
 }
-
 .title {
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
 }
 
 .title h5 {
-    font-size: 14px;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.title span {
+    font-family: Gotham Pro;
+    font-size: 12px;
+    line-height: 11px;
+    text-align: right;
+    text-decoration-line: underline;
+    text-transform: uppercase;
+    color:  #0275B1;
+    font-weight: bold;
 }
 
 .profile_views,
@@ -441,7 +500,21 @@ body {
     width: 84%;
     margin: auto;
 }
-
+.profile_views h1, 
+.post_views h1, 
+.search_app h1 {
+    font-size: 52px;
+    color: #0275B1;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.profile_views p,
+.post_views p,
+.search_app p {
+    font-family: Gotham Pro;
+    font-size: 14px;
+    color: #181818;
+    margin-top: -10px;
+}
 .visitors {
     margin-top: 20px;
     /* border: 1px solid #000; */
@@ -520,8 +593,10 @@ body {
 footer {
     align-items: baseline;
     background-color: #F7F9FB;
+    border-top:  1px solid #E7E7E7;
     display: flex;
     justify-content: space-evenly;
+    margin-top: 40px;
     max-height: 215px;
     width: 100%;
 }
