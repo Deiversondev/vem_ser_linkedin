@@ -1,13 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 html,
-body, nav, * {
+body,
+nav,
+* {
     margin: 0;
     padding: 0;
     font-family: 'Roboto';
 }
+
 body {
     background-color: #F7F9FB;
 }
+
 .nav {
     background-color: #fff;
     display: flex;
@@ -19,32 +23,42 @@ body {
     width: 100%;
     margin: auto;
 }
+
 .border-nav {
     border-right: 1px solid #F4F4F4;
     height: 80px;
     margin-left: 25px;
 }
+
 .nav-border {
-    margin-top: -20px;
+    /* margin-top: -20px; */
     border-right: 1px solid #F4F4F4;
     height: 80px;
+    position: relative;
+    bottom: 30px;
 }
+
 #border-nav {
     margin-top: -10px;
     border-right: 1px solid #F4F4F4;
     height: 80px;
 }
+
+
 /* .border-nav:nth-of-type(2) {
     position: relative;
     bottom: 20px;
 }*/
+
 .notification {
     display: flex;
     justify-content: center;
 }
+
 .fa-comment-alt {
-    font-size: 22px;        
+    font-size: 22px;
 }
+
 .notification img {
     height: 16px;
     width: 16px;
@@ -52,6 +66,7 @@ body {
     margin-top: -5px;
     margin-left: 10px;
 }
+
 .notification span {
     position: absolute;
     margin-top: -5px;
@@ -59,10 +74,12 @@ body {
     color: #FFF;
     font-size: 10px;
 }
+
 .logo {
     font-size: 46px;
     position: relative;
 }
+
 .links {
     bottom: 10px;
     width: 65%;
@@ -77,6 +94,7 @@ body {
     border: 1px solid #f0f0f0;
     width: 240px;
 }
+
 .search button {
     width: 30%;
     display: flex;
@@ -86,6 +104,7 @@ body {
     border: none;
     padding: 0 20px;
 }
+
 .search-txt {
     border: none;
     outline: none;
@@ -151,15 +170,18 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .content small {
     color: #02B033;
     height: 12px;
     width: 12px;
     position: relative;
 }
+
 .content span {
     color: rgba(24, 24, 24, 0.2);
 }
+
 .prof_details {
     width: 100%;
     height: 410px;
@@ -176,6 +198,7 @@ body {
 #picturethumb {
     width: 100%;
 }
+
 .description {
     height: 40%;
 }
@@ -228,6 +251,7 @@ body {
     display: flex;
     justify-content: space-around;
 }
+
 .btn-outline-primary {
     width: 170px;
     height: 32px;
@@ -237,6 +261,7 @@ body {
     text-transform: uppercase;
     font-size: 12px;
 }
+
 .btn-outline-secundary {
     width: 170px;
     height: 32px;
@@ -303,10 +328,12 @@ body {
     font-family: Gotham Pro;
     background-color: #FFF;
 }
+
 #seemore {
     text-decoration: none;
     font-size: 12px;
 }
+
 .about div {
     /* border: 1px solid #000; */
     width: 93%;
@@ -402,11 +429,13 @@ body {
     display: flex;
     flex-direction: column;
 }
+
 .experience span {
     border: 1px solid #F4F4F4;
     width: 90%;
     margin-left: 45px;
 }
+
 .experience h3 {
     margin-top: 30px;
     margin-left: 30px;
@@ -472,6 +501,7 @@ body {
     justify-content: space-around;
     background-color: #FFF;
 }
+
 .title {
     margin-top: 20px;
     display: flex;
@@ -482,6 +512,7 @@ body {
     font-size: 12px;
     text-transform: uppercase;
 }
+
 .title span {
     font-family: Gotham Pro;
     font-size: 12px;
@@ -489,7 +520,7 @@ body {
     text-align: right;
     text-decoration-line: underline;
     text-transform: uppercase;
-    color:  #0275B1;
+    color: #0275B1;
     font-weight: bold;
 }
 
@@ -500,13 +531,15 @@ body {
     width: 84%;
     margin: auto;
 }
-.profile_views h1, 
-.post_views h1, 
+
+.profile_views h1,
+.post_views h1,
 .search_app h1 {
     font-size: 52px;
     color: #0275B1;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .profile_views p,
 .post_views p,
 .search_app p {
@@ -515,6 +548,7 @@ body {
     color: #181818;
     margin-top: -10px;
 }
+
 .visitors {
     margin-top: 20px;
     /* border: 1px solid #000; */
@@ -593,32 +627,38 @@ body {
 footer {
     align-items: baseline;
     background-color: #F7F9FB;
-    border-top:  1px solid #E7E7E7;
+    border-top: 1px solid #E7E7E7;
     display: flex;
     justify-content: space-evenly;
     margin-top: 40px;
     max-height: 215px;
     width: 100%;
 }
+
 #logo {
     display: flex;
     flex-direction: column;
     position: relative;
     top: 30px;
 }
+
 #logo img {
     top: 88px;
 }
+
 footer nav {
     display: flex;
     flex-direction: column;
 }
+
 footer ul {
     margin-right: 30px;
 }
+
 .nav-p {
     margin-left: 31px;
 }
+
 .footer_nav {
     display: flex;
 }
