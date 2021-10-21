@@ -16,6 +16,9 @@
         <nav>
             <div class="nav">
                 <a class="logo" href="#"><i class="fab fa-linkedin"></i></a>
+                <div class="border_left">
+
+                </div>
                 <div class="links">
                     <div class="link">
                         <i class="fas fa-rss"></i>
@@ -31,9 +34,9 @@
                     </div>
                     <div class="link">
                         <div class="notification">
-                        <i class="far fa-comment-alt"></i>
-                        <img src="./images/1.png" alt="notification">
-                        <span>1</span>
+                            <i class="far fa-comment-alt"></i>
+                            <img src="./images/1.png" alt="notification">
+                            <span>1</span>
                         </div>
                         <p>Chat</p>
                     </div>
@@ -41,15 +44,21 @@
                         <i class="far fa-bell"></i>
                         <p>Notices</p>
                     </div>
+                    <div id="border_left" class="border_left">
 
+                    </div>
                     <div class="search">
                         <i class="fas fa-search"></i>
                         <input type="text" placeholder="Search">
                     </div>
 
                 </div>
+                <div class="border_left">
+
+                </div>
 
                 <div class="profile">
+
                     <div class="profile_img">
                         <img src="./images/Rectangle.png" alt="">
                     </div>
@@ -58,15 +67,21 @@
                         <p>D. Kargaev <span>You</span> </p>
                         <p>367 views today <small>+32<img src="./images/arrow-up-right.svg" alt=""></small></p>
                     </div>
+                    <div id="border_l" class="border_left"></div>
+
                     <div class="link">
                         <i class="fas fa-ellipsis-h"></i>
                         <p>Other</p>
                     </div>
                 </div>
-
+                <div id="border_le" class="border_left"></div>
             </div>
+
         </nav>
     </header>
+    <button id="edit_btn"><i class="far fa-edit"></i>EDIT PROFILE</button>
+    <button id="more_btn"><i class="fas fa-ellipsis-v"></i></button>
+    <button id="up_btn"><img src="./images/upload (2).png" alt=""></button>
     <div class="container">
         <div class="row">
             <div class="col-9">
@@ -111,19 +126,19 @@
                         <div class="project">
                             <img src="./images/ext.png" alt="">
                             <h5>Zara redesign concept</h5>
-                            <small>UX/UI design, 15.07.2019</small>
+                            <small class="grey">UX/UI design, 15.07.2019</small>
                         </div>
 
                         <div class="project">
                             <img src="./images/ext (1).png" alt="">
                             <h5>SCTHON event brand identity</h5>
-                            <small>Graphic design, 03.31.2019</small>
+                            <small class="grey">Graphic design, 03.31.2019</small>
                         </div>
 
                         <div class="project">
                             <img src="./images/ext (2).png" alt="">
                             <h5>Drozd. Brand identity. 2016</h5>
-                            <small>Graphic design, 03.04.2016</small>
+                            <small class="grey">Graphic design, 03.04.2016</small>
                         </div>
                     </div>
                     <p><a href="">SHOW ALL (12)</a></p>
@@ -134,15 +149,16 @@
                     <div class="endorsements">
                         <div class="endorsement">
                             <h6>User experience (UX) <span>6</span> </h6>
-                            <img src="./images/users.png" alt="">
+                            <img src="./images/users (5).png" alt="">
                         </div>
                         <div class="endorsement">
                             <h6>User interface (UI) <span>7</span></h6>
                             <img src="./images/users.png" alt="">
+
                         </div>
                         <div class="endorsement">
                             <h6>Brand identity <span>5</span></h6>
-                            <img src="./images/users.png" alt="">
+                            <img src="./images/users (4).png" alt="">
                         </div>
                     </div>
                     <p><a href="">SHOW ALL (17)</a></p>
@@ -157,7 +173,7 @@
                         <div class="xp_content">
                             <h4>Freelance UX/UI designer</h4>
                             <p>Self Employed</p>
-                            <p>Jun 2016 — Present</p>
+                            <p>Jun 2016 <span class="grey">— Present</span> <span class="blue">3 yrs 3 mos</span></p>
                             <p>Work with clients and web studios as freelancer. Work in next areas: eCommerce web projects; creative landing pages; iOs and Android apps; corporate web sites and corporate identity sometimes.</p>
                         </div>
                     </div>
@@ -168,7 +184,7 @@
                         <div class="xp_content">
                             <h4>UX/UI designer</h4>
                             <p>Upwork</p>
-                            <p>Jun 2019 — Present</p>
+                            <p>Jun 2019 <span class="grey">— Present</span> <span class="blue">3 mos</span></p>
                             <p>New experience with Upwork system. Work in next areas: UX/UI design, graphic design, interaction design, UX research.</p>
                         </div>
                     </div>
@@ -182,7 +198,7 @@
                         <div class="ed_content">
                             <h4>Moscow State Linguistic University</h4>
                             <p>Bachelor's degree Field Of StudyComputer and Information Systems Security/Information Assurance</p>
-                            <p>2013 — 2017t</p>
+                            <p class="grey">2013 — 2017</p>
                             <p>Additional English classes and UX profile courses​.</p>
                         </div>
                     </div>
@@ -191,8 +207,8 @@
             <aside class=" col-3 ">
                 <div class="dashboard">
                     <div class="title">
-                        <h5>your dashboard</h5>
-                        <h5>go to stats</h5>
+                        <h5>YOUR DASHBOARD</h5>
+                        <h5> <a href="">GO TO STATS</a> </h5>
                     </div>
                     <div class="profile_views">
                         <h1>367</h1>
@@ -209,8 +225,8 @@
                 </div>
                 <div class="visitors">
                     <div class="title">
-                        <h5>Visitors</h5>
-                        <h5>View All</h5>
+                        <h5>VISITORS</h5>
+                        <h5> <a href="">VIEW ALL</a></h5>
                     </div>
                     <div class="all_visitors">
                         <div class="visitor_prof">
@@ -218,7 +234,7 @@
                                 <img src="./images/Photo.png" alt="">
                             </div>
                             <div class="visitor_desc">
-                                <small>Darlene Black</small>
+                                <h5>Darlene Black</h5>
                                 <small>HR-manager, 10 000 connec...</small>
                             </div>
                         </div>
@@ -228,7 +244,7 @@
                                 <img src="./images/Photo (1).png" alt="">
                             </div>
                             <div class="visitor_desc">
-                                <small>Theresa Steward</small>
+                                <h5>Theresa Steward</h5>
                                 <small>IOS developer</small>
                             </div>
                         </div>
@@ -238,7 +254,7 @@
                                 <img src="./images/Photo (2).png" alt="">
                             </div>
                             <div class="visitor_desc">
-                                <small>Brandon Wilson</small>
+                                <h5>Brandon Wilson</h5>
                                 <small>Senior UX designer</small>
                             </div>
                         </div>
@@ -248,7 +264,7 @@
                                 <img src="./images/Photo (3).png" alt="">
                             </div>
                             <div class="visitor_desc">
-                                <small>Kyle Fisher</small>
+                                <h5>Kyle Fisher</h5>
                                 <small>Product designer at Com...</small>
                             </div>
                         </div>
@@ -258,7 +274,7 @@
                                 <img src="./images/Photo (4).png" alt="">
                             </div>
                             <div class="visitor_desc">
-                                <small>Audrey Alexander</small>
+                                <h5>Audrey Alexander</h5>
                                 <small>Team lead at Google</small>
                             </div>
                         </div>
@@ -267,15 +283,15 @@
                 <div class="suggestions">
                     <div class="all_videos">
                         <div class="title">
-                            <h5>You may like these courses</h5>
+                            <h5>YOU MAY LIKE THESE COURSES</h5>
                         </div>
                         <div class="video">
                             <div class="video_img">
                                 <img src="./images/Photo (6).png" alt="">
                             </div>
                             <div class="video_info">
-                                <p>UX Foundations: Prototyping
-                                </p>
+                                <h6>UX Foundations: Prototyping
+                                </h6>
                                 <p>27,959 viewers</p>
                             </div>
                         </div>
@@ -284,8 +300,8 @@
                                 <img src="./images/Photo (5).png" alt="">
                             </div>
                             <div class="video_info">
-                                <p>Designing with Adobe XD and pro
-                                </p>
+                                <h6>Designing with Adobe XD and pro
+                                </h6>
                                 <p>9,122 viewers</p>
                             </div>
                         </div>
@@ -294,8 +310,8 @@
                                 <img src="./images/Photo (7).png" alt="">
                             </div>
                             <div class="video_info">
-                                <p>UX Foundations: Styles and GUIs
-                                </p>
+                                <h6>UX Foundations: Styles and GUIs
+                                </h6>
                                 <p>13,858 viewers</p>
                             </div>
                         </div>
