@@ -150,6 +150,36 @@ body {
     justify-content: space-around;
 }
 
+.edit_profile {
+    position: absolute;
+    left: 1080px;
+    top: 100px;
+    width: 160px;
+    height: 36px;
+    border-radius: 4px;
+    border: none;
+}
+
+.more_options {
+    position: absolute;
+    left: 1260px;
+    top: 100px;
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    border: none;
+}
+
+.upload {
+    position: absolute;
+    left: 400px;
+    top: 100px;
+    width: 36px;
+    height: 36px;
+    border-radius: 4px;
+    border: none;
+}
+
 
 /* .profile_img {
     border: 1px solid #000;
@@ -348,9 +378,20 @@ body {
     flex-direction: column;
 }
 
+.projects p>a,
+.skills p>a,
+.suggestions p>a {
+    text-decoration: none;
+}
+
 .projects h3 {
     margin-top: 30px;
     margin-left: 30px;
+}
+
+.projects h3>span {
+    margin-left: 20px;
+    color: #bbbbbb;
 }
 
 .projects p {
@@ -584,6 +625,11 @@ body {
 
 .visitor_desc small {
     font-size: 12px;
+}
+
+.small_title {
+    font-size: 17px;
+    font-weight: 700;
 }
 
 .suggestions {
