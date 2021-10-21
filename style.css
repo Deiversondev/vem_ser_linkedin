@@ -256,7 +256,8 @@ body {
     align-self: flex-end;
     margin-right: 10px;
     position: absolute;
-    bottom: 5px;
+    bottom: 10px;
+    right: 88px;
 }
 
 .name h6 {
@@ -266,7 +267,7 @@ body {
 
 .name img:nth-of-type(2) {
     position: relative;
-    left: 75px;
+    left: 99px;
     bottom: 7px;
 }
 
@@ -305,6 +306,7 @@ body {
 .btns button:hover {
     background-color: #0E6795;
     border: 1px solid #0E6795;
+    color: #fff;
 }
 
 .section_btn {
@@ -397,6 +399,10 @@ body {
 .projects p {
     margin-bottom: 31px;
     margin-left: 30px;
+}
+
+.projects .grey {
+    color: #919090;
 }
 
 .projects_in {
@@ -501,6 +507,20 @@ body {
     /* box-sizing: border-box; */
 }
 
+.xp_content span {
+    color: #0E6795;
+    margin-left: 10px;
+}
+
+.xp_content .grey {
+    color: #919090;
+    margin-left: 0;
+}
+
+.education .grey {
+    color: #919090;
+}
+
 .education {
     margin-top: 30px;
     background-color: #FFF;
@@ -594,6 +614,11 @@ body {
     margin-top: 20px;
     /* border: 1px solid #000; */
     height: 427px;
+}
+
+.title .h5_links a {
+    color: #0E6795;
+    text-decoration: none;
 }
 
 .all_visitors {
